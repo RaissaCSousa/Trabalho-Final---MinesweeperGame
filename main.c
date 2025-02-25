@@ -41,6 +41,10 @@
      Celula **tabuleiro = criarTabuleiro(linhas, colunas);
      posicionarMinas(tabuleiro, linhas, colunas, num_minas);
      calcularVizinhos(tabuleiro, linhas, colunas);
-     
+  
+     //inicia o jogo e libera memória
+     jogar(tabuleiro, linhas, colunas, num_minas);
+     liberarTabuleiro(tabuleiro, linhas);
+  
      return 0;
  }
