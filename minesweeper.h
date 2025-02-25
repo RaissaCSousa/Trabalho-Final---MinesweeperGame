@@ -23,5 +23,7 @@ void posicionarMinas (Celula **tabuleiro, int linhas, int colunas, int num_minas
 void calcularVizinhos(Celula **tabuleiro, int linhas, int colunas);
 void exibirTabuleiro(Celula **tabuleiro, int linhas, int colunas);
 void abrirCelula (Celula **tabuleiro, int linhas, int colunas, int i, int j);
+void jogar(Celula **tabuleiro, int linhas, int colunas, int num_minas);
+void liberarTabuleiro(Celula **tabuleiro, int linhas);
 
 #endif
